@@ -47,11 +47,7 @@ body {
   transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
 }
 
-.operators input:hover {
-  background-color: #eac240;
-}
-
-.numbers input:active {
+.operators input:active {
   font-weight: bold;
   background-color: #eac240;
 }
@@ -74,14 +70,10 @@ body {
   transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
 }
 
-.numbers input:hover {
-  background-color: #eac240;
-  -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
-  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
-}
 
 .numbers input:active {
   font-weight: bold;
+  background-color: #eac240;
 }
 
 .numbers input.zero{
@@ -104,11 +96,6 @@ input.equal {
   transition: all .2s ease-in-out;
 }
 
-input.equal:hover {
-  background-color: #eac240;
-  
-}
-
 input.equal:active {
   font-weight: bold;
 }
@@ -123,4 +110,3 @@ input.equal:active {
   font-size: 35px !important;
   color: #eac240;
 }
-
