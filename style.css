@@ -51,8 +51,9 @@ body {
   background-color: #eac240;
 }
 
-.operators input:active {
+.numbers input:active {
   font-weight: bold;
+  background-color: #eac240;
 }
 
 .leftPanel {
